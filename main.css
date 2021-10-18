@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    background-color: rgb(158, 221, 161);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+/*input {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 20px;
+}
+*/
+
+.strikeout {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.priority {
+    color: orange;
+}
+
+#shopping-list {
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-style: solid white;
+    border-radius: 3px;
+    box-shadow: 0px 6px 13px 7px rgba(0,0,0,0.45);
+    width: 95%;
+    max-width: 500px;
+
+}
+
+.add-item-form,
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .add-item-form,
+    .header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    margin: 15px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+}
+
+.btn {
+    border: none;
+    border-radius: 3px;
+    margin: auto 0;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    background-color:skyblue;
+}
+
+.btn-cancel {
+    background-color: red;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(180, 180, 180);
+
+}
+
+label {
+    margin: auto;
+}
