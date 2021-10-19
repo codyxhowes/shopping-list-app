@@ -4,7 +4,7 @@ Vue.createApp({
                     header: "Shopping List",
                     editing: false,
                     newItem: '',
-                    newItemPriority:'false',
+                    newItemHighPriority:'false',
                     items: []
                 }
             },
